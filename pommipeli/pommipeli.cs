@@ -57,7 +57,7 @@ public class pommipeli : PhysicsGame
     }
 
     void LuoKentta()
-    { // tässä luodaan pelikenttä, eli annetaan siihen liittyvät parametrit...m 
+    { // tässä luodaan pelikenttä, eli annetaan siihen liittyvät parametrit...
       // pitää luoda ne rajat, että jos niihin törmätään, niin no go...
         Level.CreateBorders(1.0, false);
         Level.Background.Color = Color.White;
